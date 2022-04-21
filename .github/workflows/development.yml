@@ -23,5 +23,5 @@ jobs:
         with:
           args: deploy --dir=build --prod
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: 'new-temp'
+          heroku_app_name: 'paglipay-new-temp'
           heroku_email: 'paglipay@gmail.com'
